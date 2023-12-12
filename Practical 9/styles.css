@@ -1,0 +1,22 @@
+/* Add any additional custom styles here */
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #007BFF;
+}

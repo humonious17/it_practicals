@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Changer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="content">
+    <p id="styledParagraph">This is a sample paragraph.</p>
+    <div id="buttonGrid">
+      <button onclick="changeColor('red')">Red</button>
+      <button onclick="changeColor('green')">Green</button>
+      <button onclick="changeColor('blue')">Blue</button>
+      <button onclick="changeFontSize(10)">10</button>
+      <button onclick="changeFontSize(20)">20</button>
+      <button onclick="changeFontSize(30)">30</button>
+      <button onclick="changeFontFamily('Arial')">Arial</button>
+      <button onclick="changeFontFamily('Times New Roman')">Times New Roman</button>
+      <button onclick="changeFontFamily('Courier New')">Courier New</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
